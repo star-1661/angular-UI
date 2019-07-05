@@ -1,0 +1,105 @@
+@media screen and (min-width:1px){
+    .sequence-text{
+        font-size: 20px;
+    }
+    .account-section{
+        display:flex;
+        align-items:center;
+    }
+    .payment-form > div{
+        padding: 0 50px;
+    }
+    .extra-address label{
+        float:left;
+    }
+    .payment-form .col-md-6:nth-child(1) label:nth-child(n+1){
+        clear:both;
+    }
+    .contact-form  label{
+        clear:both;
+    }
+    input[name='accountType']{
+        margin-left:2px;
+    }
+}
+
+@media screen and (max-width : 1200px){
+    .order-page .payment-form,
+    .order-page .contact-form {
+        padding: 10px 115px 40px 115px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width : 1124px){
+    .order-page .payment-form,
+    .order-page .contact-form {
+        padding: 10px 75px 40px 75px;
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width : 1024px){
+    .account-section{
+        display:block;
+    }
+    .account-section > div{
+        margin: 10px 0;
+    }
+    .order-page .payment-form,
+    .order-page .contact-form {
+        padding: 10px 15px 40px 15px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:768px){
+    .order-page .contact-form .text {
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px){
+    .stike-text span {
+        margin-right: 10px;
+    }
+    .order-page .contact-form .text {
+        margin-left: 0px; 
+        padding: 10px;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:480px){
+    .logo-section{
+        text-align:center;
+    }
+    .order-page .payment-form,
+    .order-page .contact-form {
+        padding: 10px 2px 40px 2px;
+        font-size: 17px;
+    }
+
+    .payment-form > div {
+        padding: 0 25px;
+    }
+
+    .order-page .payment-form .extra-address {
+        padding: 10px 10px 30px 10px;
+    }
+
+    input[name='accountType']{
+        margin-left:10px;
+    }
+
+    .price-section{
+        padding:10px 0px;
+    }
+    .price-section .col-md-4{
+        padding-left: 0px;
+    }
+
+    .mobile-second-mark{
+        padding-left:0px;
+    }
+    
+
+}

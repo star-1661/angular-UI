@@ -1,0 +1,273 @@
+@media screen and (min-width: 1px){
+    .mobile{
+        display: none;
+    }
+    .blazing-section1{
+        position: relative;
+    }
+    .blazing-section1 img{
+        max-width: 100%;
+    }
+    .blazing-section1 .section-title{
+        top:50px;
+        text-align: center;
+        padding: 0px 100px;
+    }
+    .blazing-section1 .section-content{
+        bottom: 200px;
+        text-align: left;
+        left:250px
+    }
+    .blazing-section1 .section-title p{
+        font-size: 95px;
+        font-weight: bold;
+        font-family: "AkzidGroProBold";
+        text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+        color:white;
+        
+    }/* added by arturo */
+    .blazing-section1 .section-content p {
+        bottom: 100px;
+        font-size: 95px;
+        color:white;
+        font-weight: bold;
+        font-family: "AkzidGroProBold";
+        text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 20px #000, 3px 3px 20px #000;
+    }
+}
+@media screen and (max-width: 1400px){
+    .blazing-section1 .section-content p,
+    .blazing-section1 .section-title p{
+        font-size: 75px;
+    }
+    .blazing-section1 .section-title{
+        top:50px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width:1068px){
+    .table-section .table-view {
+        margin: 10px 2%;
+        border-radius: 35px;
+        border: 2px solid #000;
+    }
+    .home-section {
+       
+        font-size: 80px;
+       
+    }
+
+    .blazing-section1 .section-content p,
+    .blazing-section1 .section-title p{
+        font-size: 60px;
+    }
+    .blazing-section1 .section-content{
+        bottom: 150px;
+        left:180px
+    }
+}
+
+@media screen and (max-width:768px){
+    .table-section .table-view {
+        margin: 10px 1%;
+        border-radius: 35px;
+        border: 3px solid #000;
+    }
+    .banner-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .mobile-text-left {
+        text-align: center;
+    }
+
+    .table-section ol {
+        padding-left: 30px;
+    }
+
+    .home-section {
+        height: 420px;
+        font-size: 60px;
+    }
+
+
+    .table.rwd-table td, .table.rwd-table th {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: left;
+        width: 182px;
+    }
+
+    .blazing-section {
+        padding: 5px 0 15px;
+        /* background-size: 100% auto; */
+    }
+
+    .blazing-section .section-content p, .blazing-section .section-title p {
+        font-size: 40px;
+    }
+    .blazing-section .section-content {
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+
+    .blazing-section1 .section-content p,
+    .blazing-section1 .section-title p{
+        font-size: 40px;
+    }
+    .blazing-section1 .section-content{
+        bottom: 100px;
+        left:100px
+    }
+}
+ 
+@media screen and (max-width:740px){
+    .table-section .table-view {
+        margin: 10px 5% !important;
+        border-radius: 35px;
+        border: 3px solid #000;
+    }
+    .home-section {
+        height: 420px;
+        font-size: 60px;
+    }
+    .table-view div {
+        padding: 10px;
+    }
+    .table-section img {
+        max-height: 20px;
+        width: auto;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .home-section {
+        height: 360px;
+        font-size: 45px;
+    }
+    .blazing-section .section-title p, .blazing-section .section-content p {
+        font-size: 38px;
+    }
+
+    .blazing-section1 .section-content p,
+    .blazing-section1 .section-title p{
+        font-size: 40px;
+    }
+    .blazing-section1 .section-content{
+        bottom: 50px;
+        left:80px
+    }
+    .blazing-section1 .section-title{
+        top:30px;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .table-section .table-view {
+        margin: 10px 10px !important;
+        border-radius: 5px;
+        border: 2px solid #000;
+    }
+    .banner-section {
+        padding: 20px 5px 40px;
+        text-align: center;
+    }
+    .banner-section p {
+        font-size: 38px;
+        text-shadow: 0 6px 5px rgba(0,0,0,0.7), 0 0 6px rgba(0,0,0,0.4);
+    }
+
+   
+    .speed-tracker-header-parent{
+        padding:0;
+    }
+
+    .common-top .speed-tracker-header h3 {
+        font-size: 27px;
+    }
+
+    .common-top .speed-tracker-header h3 span {
+        font-size: 27px;
+    }
+
+    .common-top .top-header .sub-header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .p-l-30 {
+        padding-left: 0px;
+    }
+
+    .home-section {
+        height: 310px;
+        font-size: 35px;
+    }
+    .blazing-section .section-title p, .blazing-section .section-content p {
+        font-size: 35px;
+    }
+
+    .table-section img {
+        max-height: 15px;
+        width: auto;
+        margin-right: 3px;
+    }
+
+    .table.rwd-table td, .table.rwd-table th {
+        font-size: 13px;
+        font-weight: 700;
+       
+        width: 80px;
+        text-align: center;
+    }
+
+    .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+       
+        vertical-align: middle !important;
+       
+    }
+    .mobile{
+        display: block;
+    }
+
+    .blazing-section .section-title p, .blazing-section .section-content p {
+        font-size: 30px;
+    }
+
+    .blazing-section {
+        padding: 0px 0 5px 0;
+        text-align: center;
+    }
+    .blazing-section .section-content{
+        padding-left:12px;
+        padding-top:75px;
+    }
+
+    .table-section {
+        font-size: 22px;
+    }
+    .table-section ol {
+        padding-left: 30px;
+    }
+    .table-section b {
+        font-size: 30px;
+    }
+    .blazing-section1 .section-content p,
+    .blazing-section1 .section-title p{
+        font-size: 27px;
+    }
+    .blazing-section1 .section-content{
+        bottom: 7px;
+        left:30px
+    }
+    .blazing-section1 .section-title{
+        top:5px;
+    }
+    
+}
+
+
